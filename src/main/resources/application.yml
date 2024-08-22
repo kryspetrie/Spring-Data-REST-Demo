@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: "Spring Data Demo"
+
+  flyway:
+    enabled: true
+    url: jdbc:postgresql://localhost:5432/postgres
+    schemas: public
+    user: postgres
+    password: postgres
+
+  jdbc:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
